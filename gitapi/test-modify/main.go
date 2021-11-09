@@ -17,7 +17,7 @@ import (
 
 
 const (
-   gitAccessToken string="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"
+   gitAccessToken string="<github access token>"
    gitRepoName string="git-go-test-four"
 )
 
