@@ -11,14 +11,14 @@ import (
     "encoding/json"
 )
 const (
-   clientIdValue string = "fde3fe91-1b74-4ac5-8f2b-05e4ee0301e6"
+   clientIdValue string = "<value>"
    resourceName string = "https://management.core.windows.net/"
-   clientSecretValue string = "7Et7Q~P0olODXWHnD5dM11KZXFAWGQYxMmwut"
-   tenantId string = "1e452d66-a99c-413b-b87f-bc0c04219888"
-   subscriptionId string = "a68d0074-3737-48ac-9af0-b4a2e93f5e11"
+   clientSecretValue string = "<value>"
+   tenantId string = "<value>"
+   subscriptionId string = "<value>"
    arcClusterResourceGroup string = "AzureArcTest"
    arcCluster string= "AzureArcTest1"
-   repositoryUrlName string = "https://github.com/chitti-intel/git-go-test-five"
+   repositoryUrlName string = "<value>"
    gitConfigurationName string = "cluster-config-four"
    operatorScope string = "cluster"
 )
