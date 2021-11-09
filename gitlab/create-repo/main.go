@@ -15,7 +15,7 @@ const (
 func main() {
 	// Create a new client
 	ctx := context.Background()
-	gitLabToken := "glpat-VsaWds-rWtbx6eM5ejBm"
+	gitLabToken := <gitlab token>
 	c, err := gitlab.NewClient(gitLabToken,"")
 	//checkErr(err)
         fmt.Println(err)
