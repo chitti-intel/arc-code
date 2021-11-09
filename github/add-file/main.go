@@ -63,7 +63,7 @@ func getContent(filePath string) string {
 func sendFile(files []gitprovider.CommitFile) {
         // Create a new client
         ctx := context.Background()
-        githubToken := "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"
+        githubToken := "<github token>"
         c, err := github.NewClient(gitprovider.WithOAuth2Token(githubToken),)
         userRef := gitprovider.UserRef{
                 Domain:    githubDomain,
