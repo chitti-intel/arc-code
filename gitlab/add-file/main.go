@@ -62,7 +62,7 @@ func getContent(filePath string) string {
 func sendFile(files []gitprovider.CommitFile) {
         // Create a new client
         ctx := context.Background()
-	gitLabToken := "glpat-VsaWds-rWtbx6eM5ejBm"
+	gitLabToken := "<gitlab token>"
 	c, err := gitlab.NewClient(gitLabToken,"")
         userRef := gitprovider.UserRef{
                 Domain:    gitLabDomain,
