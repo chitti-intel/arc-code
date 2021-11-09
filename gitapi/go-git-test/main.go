@@ -18,8 +18,8 @@ const (
 func main() {
 	// Create a new client
 	ctx := context.Background()
-	//githubToken := "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" 
-	gitLabToken := "glpat-VsaWds-rWtbx6eM5ejBm"
+	//githubToken := "<github token>" 
+	gitLabToken := "<gitlab token>"
 	//c, err := github.NewClient(gitprovider.WithOAuth2Token(githubToken),)
 	c, err := gitlab.NewClient(gitLabToken,"")
 	//checkErr(err)
